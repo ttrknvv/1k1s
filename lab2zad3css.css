@@ -1,0 +1,11 @@
+﻿h1 + div {
+    background-color: #FFFF00;
+    font-size: 16pt;
+}
+h2 + div {
+    font-size: 15pt;
+    color: #000080;
+}
+h1, h2 {
+    text-align: center;
+}

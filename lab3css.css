@@ -1,0 +1,65 @@
+﻿@font-face {
+    font-family: 'Carveat';
+    src: url('../лб 3/fonts/Carveat.woff');
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url('../лб 3/fonts/Exo2.woff');
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('../лб 3/fonts/Comfortaa.woff');
+}
+h1 {
+    font-family: 'Carveat';
+    text-align: center;
+    line-height: 0%;
+    font-weight: bold;
+    text-transform: lowercase;
+    font-size: 45px;
+    text-shadow: 1px 1px 2px #FF0000;
+}
+h2 {
+    font-family: 'Exo2';
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+    text-indent: 25px;
+    text-align: left;
+}
+p {
+    font-family: 'Comfortaa';
+    text-indent: 25px;
+    text-align: justify;
+    line-height: 200%;
+    font-size: 20px; 
+}
+p::first-letter {
+   background-color: hsla(275, 100%, 10%,1);
+   font-weight: bold;
+   font-size: 45px;
+   color: #ffffff;
+}
+#a {
+    margin-bottom: 0px;
+}
+#b {
+    margin-top: 0px;
+}
+ol li {
+    line-height: 200%;
+    font-family: 'Comfortaa';
+    list-style-type: none;
+    counter-increment: item;
+    font-size: 20px;
+}
+#c {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+ol li:before {
+        content: counter(item, upper-roman) "."; 
+        color: #00016d;
+}
+
