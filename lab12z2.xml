@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="zad.xsl"?>
+<ATTESTATION>
+<STUDENT>
+<NAME>Гурина Кристина</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Горощеня Владислав</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Глушеня Полина</NAME>
+<MARK>8</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Иоскин Артем</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Каребо Никита</NAME>
+<MARK>8</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Маркович Святослав</NAME>
+<MARK>6</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Наварич Андрей</NAME>
+<MARK>3</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Нехаёнок Артем</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Поздняков Максим</NAME>
+<MARK>6</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Романчук Алексей</NAME>
+<MARK>8</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Ружицкий Максим</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Савеня Алексей</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Тараканов Никита</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Тихомиров Илья</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Точило Олег</NAME>
+<MARK>7</MARK>
+</STUDENT>
+
+<STUDENT>
+<NAME>Яшный Никита</NAME>
+<MARK>6</MARK>
+</STUDENT>
+</ATTESTATION>

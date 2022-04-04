@@ -1,0 +1,46 @@
+﻿.nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.nav>ul>li {
+    position: relative;
+}
+.nav li a {
+    display: block;
+    background: #808080;
+    border: 2px dotted #000000;
+    padding: 8px;
+    text-decoration: none;
+    color: #00ff90;
+    font-size: 30px;
+}
+.nav li .ul_2 {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.nav li:hover .ul_2 {
+    display: block;
+}
+.nav li li {
+    width: 240px;
+}
+.li_2 {
+    color: #ff0000;
+    background-color: #00ff90;
+    width: 200px;
+    display: block;
+    border: #000000 1px solid;
+    padding: 5px;
+    font-size: 30px;
+}
+
+
+
+
+
+div {
+    margin-left: 600px;
+}
+

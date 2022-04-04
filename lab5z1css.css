@@ -1,0 +1,71 @@
+﻿div {
+    font-size: 30px;
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 510px;
+}
+#a {
+    border-style: outset !important;
+    border: 6px solid rgb(255 0 0);
+}
+#b {
+    border-style: dashed !important; 
+    border: 6px solid rgb(0 255 33);
+    margin-left: 6px;
+}
+#c {
+    border-style: dotted !important;
+    border: 6px solid rgb(0 38 255);
+    margin-left: 10px;
+}
+#d {
+    border-style: double !important;
+    border: 6px solid rgb(0 255 255);
+    margin-left: 10px;
+}
+#e {
+    border-style: groove !important;
+    border: 6px solid rgb(178 0 255);
+    margin-left: 10px;
+}
+#f {
+    border-style: inset !important;
+    border: 6px solid rgb(255 216 0);
+    margin-left: 10px;
+}
+#g {
+    border: 6px solid rgb(0 0 0);
+    margin-left: 10px;
+}
+#h {
+    text-align: center;
+    margin-top: 10px;
+}
+p {
+    padding: 5px;
+    margin: 5px;
+    background-color: #FFA500;
+    border: 3px solid #FF4500;
+    line-height: 20px;
+}
+#k {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: 7px groove #FF7F50;
+}
+#l {
+    border-width: 5px;
+    border-color: rgb(255 0 0);
+    border-radius: 20px/40px;
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+    overflow: auto; 
+}
+#m {
+    border-color: #FF6347;
+}

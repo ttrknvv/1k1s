@@ -1,0 +1,36 @@
+﻿body {
+    background-image: url(./img/fit.jpg);
+    background-position: right top;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+div {
+    width: 100px;
+    height: 100px;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.div1 {
+    background-image: linear-gradient(to bottom, #0026ff 5px, #b200ff 40px, #ff0000 90px);
+}
+.div2 {
+    background-image: repeating-linear-gradient(45deg, #0026ff, #0026ff 7px, #ff0000 7px, #ff0000 14px);
+}
+.div3 {
+    background-image: radial-gradient(80% 100%, #b6ff00, #0f6e00);
+}
+.div4 {
+    background-image: repeating-radial-gradient(#b6ff00, #b6ff00 8px, #00ff21 8px, #00ff21 16px);
+}
+.div5 {
+    background-image: linear-gradient(180deg, rgba(00, 00, 255, 0.6) 50%, rgba(70, 00, 100, 0.6) 50%), radial-gradient(rgba(71%, 100%, 0%, 1) 10%, rgba(10%, 83%, 10%, 0.7) 75%, rgba(0, 38, 255, 0.1) 30%);
+    background-blend-mode: overlay;
+}
+.div6 {
+    background-image: linear-gradient(90deg, rgb(71%, 100%, 0%, 1), rgba(10%, 83%, 10%, 1) 25%, transparent 70%),
+                      linear-gradient(180deg, rgba(51, 1, 9, 1), rgba(255, 255, 255, 1), rgb(24%, 7%, 70%, 1), rgb(77%, 9%, 67%, 1));
+}

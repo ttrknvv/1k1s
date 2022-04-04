@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style_2.css"?>
+<!DOCTYPE territory [
+<!ELEMENT territory (houses)>
+<!ELEMENT houses (house)>
+<!ATTLIST houses count CDATA "0">
+<!ELEMENT house (street, owner)>
+<!ATTLIST house square CDATA "0">
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT owner (#PCDATA)>
+<!ENTITY street_1 "Улица победы">
+<!ENTITY street_2 "Улица зеленая">
+<!ENTITY street_3 "Улица царевича">
+<!ENTITY street_4 "Улица пушкина">
+<!ENTITY owner_1 "Василий Рыбкин">
+<!ENTITY owner_2 "Виталий Кальмаров">
+<!ENTITY owner_3 "Арсений Водопадов">
+<!ENTITY owner_4 "Евгений Тушенков">
+]>
+
+<territory>
+    <houses count="4">
+    <house square="40">
+    <street>&street_1;</street>
+    <owner>&owner_1;</owner>
+    </house>
+    <house square="36">
+    <street>&street_2;</street>
+    <owner>&owner_2;</owner>
+    </house>
+    <house square="56">
+    <street>&street_3;</street>
+    <owner>&owner_3;</owner>
+    </house>
+    <house square="26">
+    <street>&street_4;</street>
+    <owner>&owner_4;</owner>
+    </house>
+    </houses>
+</territory>

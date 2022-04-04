@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Comic Sans MS;
+}
+.row, .second_row, .third_row {
+    display: flex;
+    justify-content: center;  /* Вырaнивание по оси ОХ */
+    align-items: stretch;       /* Выравнивание по OY */
+    flex-wrap: wrap;        /*Регулирует перестановку на новую строку, если элементам не хватает места*/
+    margin-top: 10px;
+    font-size: 30px;
+}
+.columns {
+    border: 2px solid black;
+    align-self: center;
+    flex: 0 0 280px;   /* flex-grow flex-shink flex-basis */
+    margin-left: 30px;
+    text-align: center;
+}
+.row > .columns:first-child {
+    flex: 0 0 908px;
+}
+.third_row > .columns {
+    font-size: 15px;
+    text-align: left;
+    text-indent: 15px;
+    height: 550px;
+}
+
+

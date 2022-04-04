@@ -1,0 +1,25 @@
+street {
+    display: inline-block;
+    width: 400px;
+    height: 20px;
+    color: #ff0000;
+    font-size: 30px;
+}
+owner {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 220px;
+    margin-bottom: 100px;
+}
+house {
+    display: block;
+    border: 2px dotted black;
+    width: 500px;
+    margin-left: 1000px;
+}
+houses {
+    display: block;
+    background-image: url(333.PNG);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}

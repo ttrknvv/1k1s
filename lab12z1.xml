@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<territory>
+
+    <house price="220000">
+    <street>Улица победы</street>
+    <owner>Василий Рыбкин</owner>
+    <square>40000</square>
+    </house>
+
+    <house price="200000">
+    <street>Улица зеленая</street>
+    <owner>Виталий Кальмаров</owner>
+    <square>36000</square>
+    </house>
+
+    <house price="300000">
+    <street>Улица царевича</street>
+    <owner>Арсений Водопадов</owner>
+    <square>56000</square>
+    </house>
+
+    <house price="106000">
+    <street>Улица пушкина</street>
+    <owner>Евгений Тушенков</owner>
+    <square>26000</square>
+    </house>
+    
+</territory>

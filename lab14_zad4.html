@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SVG</title>
+        <link rel="stylesheet" href="style/style_4.css">
+    </head>
+
+    <body>
+        <svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <rect width="100%" height="100%"/>
+            <defs>
+                <radialGradient id = "gradient_1">
+                    <stop offset = "10%" stop-color = "blue"/>
+                    <stop offset = "60%" stop-color = "yellow"/>
+                    <stop offset = "100%" stop-color = "pink"/>
+                <radialGradient>
+                    <path id="bubble" d="M100 59.375l-18.75-18.75v-28.125h-12.5v15.625l-18.75-18.75-50 50v3.125h12.5v31.25h31.25v-18.75h12.5v18.75h31.25v-31.25h12.5z"/>
+            </defs>
+        
+            <use class="icon_1" href="#bubble" x="10" y="10" fill="red" stroke="none" transform="skewX(30)"/>
+            <use class="icon_2" href="#bubble" x="240" y="10" fill="url(#gradient_1)" stroke="none" transform="skewX(-30)"/>
+            <use class="icon_3" href="#bubble" x="640" y="115" fill="red" stroke="none" transform="scale(0.5)"/>
+            <use class="icon_4" href="#bubble" x="500" y="115" fill="red" stroke="none" transform="rotate(45 600 0)"/>
+            <use class="icon_5" href="#bubble" x="540" y="10" fill="red" stroke="none" transform="translate(90 10)"/>
+            
+           
+
+        </svg>
+
+
+
+    </body>
+
+
+
+</html>

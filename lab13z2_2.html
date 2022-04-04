@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>CNP</title>
+        <style>
+            p {
+                margin: auto;
+                padding-top: 20px;
+                text-align: center;
+                border: 2px dotted black;
+                height: 50px;
+                width: 200px;
+                color: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p><span id="street"></span></p>
+            <p><span id="owner"></span></p>
+        </div>
+        <script>
+            txt = "<territory>";
+            txt = txt + "<street>Улица победы</street>";
+            txt = txt + "<owner>Виталий Костюшкин</owner>";
+            txt = txt + "</territory>";
+            if (window.DOMParser) {
+                parser = new DOMParser();
+                xmlDoc = parser.parseFromString(txt,"text/xml");
+            }
+            else {
+                xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+                xmlDoc.asyns = false;
+                xmlDoc.loadXML(txt);
+            }
+            document.getElementById("street").innerHTML = xmlDoc.getElementsByTagName("street")
+            [0].childNodes[0].nodeValue;
+            document.getElementById("owner").innerHTML = xmlDoc.getElementsByTagName("owner")
+            [0].childNodes[0].nodeValue;            
+
+        </script>
+
+    </body>
+
+</html>

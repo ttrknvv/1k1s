@@ -1,0 +1,138 @@
+body {
+    font-family:'Comic Sans MS';
+}
+ul.second {
+    list-style-type:decimal;
+}
+ul.first {
+    list-style-type: none;
+}
+audio {
+    display: block;
+}
+video {
+    border: 1px solid black;
+}
+video.first_video {
+    margin-left: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .row {
+        flex-flow: wrap;
+        display: flex;
+        flex-direction: row;
+    justify-content: space-around;
+    }
+    div.row > div.first_column {
+        width: 35%;
+        height:auto;
+        border: 2px solid black;
+    }
+    div.row > div.second_column {
+        width: 60%;
+        height: 100%;
+        border: 2px solid black;
+    }
+    ul {
+        font-size: 190%;
+    }
+    audio {
+        margin-top: 20px;
+        width: 50%x;
+        margin-left: 200px;
+        margin-right: 20px;
+    }
+    video {
+        height: 300px;
+        width: 30%;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    body {
+        font-size: 50%;
+    }
+    audio {
+        margin-left: 140px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 30px;
+    }
+    .container {
+        width: 100%;
+        height: 700px;
+        border: 2px solid black;
+    }
+    audio {
+        margin-top: 5px;
+        width: 80%px;
+        margin-left: 200px;
+        width: 50%;
+    }
+    video.first_video {
+        margin-left: 80px;
+    }
+    video {
+        height: 100px;
+        width: 20%;
+        margin-top: 30px;
+    }
+    ul.first {
+        margin-left: 260px;
+        margin-right: 30%;
+    }
+    ul.second li {
+        position: absolute;
+        display: none;
+    }
+    ul.first li:hover ul.second li {
+        position: relative;
+        display: block;
+    }
+    ul.second li {
+        width: 200px;
+        border: 2px solid black;
+    }
+}
+@media screen and (max-width: 440px) {
+    .container {
+        width: 100%;
+        height: 700px;
+        border: 2px solid black;
+    }
+    audio {
+        margin-top: 5px;
+        width: 80%px;
+        margin-left: 50px;
+        width: 60%;
+    }
+    video.first_video {
+        margin-left: 40px;
+    }
+    video {
+        height: 100px;
+        width: 20%;
+        margin-top: 30px;
+    }
+    ul.first {
+        font-size: 20px;
+        margin-left: 50px;
+        margin-right: 30%;
+    }
+    ul.second li {
+        position: absolute;
+        display: none;
+    }
+    ul.first li:hover ul.second li {
+        position: relative;
+        display: block;
+    }
+    ul.second li {
+        width: 109px;
+        border: 2px solid black;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SVG</title>
+    </head>
+
+    <body>
+        <svg viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <linearGradient id = "polygon">
+                    <stop offset = "20%" stop-color = "green"/>
+                    <stop offset = "70%" stop-color = "orange"/>
+                </linearGradient>
+                <radialGradient id = "circle">
+                    <stop offset = "10%" stop-color = "blue"/>
+                    <stop offset = "60%" stop-color = "yellow"/>
+                    <stop offset = "100%" stop-color = "pink"/>
+                <radialGradient>
+            </defs>
+
+            <circle id="circle" cx="5" cy="5" r="2.5" fill="url(#circle)"/> 
+            <rect id="rect" x="9" y="2.5" width="5" height="5" fill="red" stroke="black" stroke-width="0.2"/>
+
+            <animate 
+            xlink:href="#rect"
+            attributeName="stroke"
+            from="black"
+            to="orange" 
+            dur="4s"/>
+            <animate 
+            xlink:href="#rect"
+            attributeName="stroke-width"
+            from="0.2"
+            to="1" 
+            dur="4s"
+            repeatCount="indefinite"/>
+
+            <ellipse id="ellipse" cx="19" cy="5" rx="4" ry="2.5" fill="green"/>
+
+            <animate 
+            xlink:href="#ellipse"
+            attributeName="fill"
+            from="green"
+            to="yellow" 
+            dur="2s"
+            begin="click" />
+
+            <polygon id="polygon2" stroke-dashoffset="-82.5" stroke-dasharray="0,165 0,165" points="28,3 24,7.8 32,7.8"  fill="url(#polygon)" stroke="black" stroke-width="0.2"/>
+
+            <animate 
+            xlink:href="#polygon2"
+            attributeName="stroke-dasharray"
+            values="0,165 0,165;0,0,330,0"
+            dur="5s"
+            begin="mouseover"/>
+
+            <polyline points="2 9 17 9 13 11 37 11" fill="none" stroke-width="0.2" stroke-linecap="round" stroke="purple" />
+            
+        </svg>
+    </body>
+</html>

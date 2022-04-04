@@ -1,0 +1,29 @@
+﻿table {
+    border-collapse: collapse;
+    margin: auto;
+}
+tr, td {
+    border: 2px solid black;
+}
+td:first-child {
+    width: 7px;
+    background-color: #ff0000;
+}
+td {
+    height: 60px;
+    width: 60px;
+}
+#r {
+    width: 7px;
+    height: 7px;
+    background-color: #ff0000;
+}
+a {
+    width: 
+}
+tr:nth-child(even) td:nth-child(odd) {
+    background-color: black;
+}
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: black;
+}

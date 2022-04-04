@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#menu {
+    color:green;
+}
+ul {
+    list-style-type: none;
+    font-size: 30px;
+    margin-left: 5px;
+    margin: 10px 0 0 0;
+    padding: 5px 5px 5px 5px;
+}
+li, div.vipod > div {
+    background-color:goldenrod ;
+    padding: 2px 2px 2px 2px;
+    width: 200px;
+    border: 4px dotted black;
+    height: 60px;
+    text-align: center;
+}
+li > a {
+    color:darkblue;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 560px) {
+    ul {
+        display: flex;
+        margin-left: 20px;
+       }
+    li {
+        margin-left: -4px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    ul {
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+    }
+    .li_1 {
+        display: none;
+        position: absolute;
+    }
+    ul:hover li {
+        margin-top: -4px;
+        display: block;
+        position: relative;
+    }
+    
+}
+ 

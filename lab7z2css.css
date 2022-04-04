@@ -1,0 +1,96 @@
+﻿img {
+    width: 100px;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.punkt_1 {
+    animation: punkt_1 2s linear infinite;
+}
+@keyframes punkt_1 {
+    0% {
+        left: 0;
+       
+    }
+    100% {
+        left: 200px;
+        
+    }
+}
+.punkt_2 {
+    animation: punkt_2 2s linear infinite;
+}
+@keyframes punkt_2{
+    from {
+        bottom: 0px;
+    }
+    to {
+        bottom: 200px;
+    }
+}
+.punkt_3 {
+    animation: punkt_3 4s linear infinite;
+}
+@keyframes punkt_3{
+    0% {
+        left: 0px;
+        bottom: 0px;
+    }
+    25% {
+        left: 100px;
+        bottom: 100px;
+    }
+    50% {
+        left: 50px;
+        bottom: 0px;
+    }
+    75% {
+        left: 300px;
+        }
+    100% {
+        left: 0px;
+    }
+}
+.punkt_4 {
+    margin-left: 200px;
+    animation: punkt_4 8s linear infinite;
+    margin-bottom: 300px;
+}
+@keyframes punkt_4 {
+    0% {
+        left: 0px;
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+h1 {
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin-bottom: 100px;
+}
+@keyframes h1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 80%;
+    }
+}

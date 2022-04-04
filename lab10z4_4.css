@@ -1,0 +1,35 @@
+img {
+    width: 200px;
+    animation-name: img;
+    animation-iteration-count: infinite;
+    animation-duration:3s;
+    animation-direction: alternate ;
+}
+span {
+    display: block;
+    animation-duration: 3s;
+    animation-name: span;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes img {
+    from {
+        transform:rotate(0);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@keyframes span {
+    from {
+        transform: translateY(0px);
+        color: green;
+    }
+    to {
+        transform: translateY(-30px);
+        color:hotpink;
+    }
+}
+img {
+    width: 100px;
+}

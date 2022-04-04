@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SVG</title>
+        <link rel="stylesheet" href="zad_2.css">
+    </head>
+
+    <body>
+        <svg viewBox="0 0 50 40" xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <linearGradient id = "polygon">
+                    <stop offset = "20%" stop-color = "green"/>
+                    <stop offset = "70%" stop-color = "orange"/>
+                </linearGradient>
+                <radialGradient id = "circle">
+                    <stop offset = "10%" stop-color = "blue"/>
+                    <stop offset = "60%" stop-color = "yellow"/>
+                    <stop offset = "100%" stop-color = "pink"/>
+                <radialGradient>
+            </defs>
+
+            <circle id="circle" cx="5" cy="5" r="2.5" fill="url(#circle)"/> 
+            <rect x="9" y="2.5" width="5" height="5" fill="red"/>
+            <ellipse cx="19" cy="5" rx="4" ry="2.5" fill="green"/>
+            <polygon points="28,3 24,7.8 32,7.8"  fill="url(#polygon)" />
+            <polyline points="2 9 17 9 13 11 37 11" fill="none" stroke-width="0.2" stroke-linecap="round" stroke="purple" />
+            
+
+        </svg>
+     </body>
+</html>

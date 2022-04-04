@@ -1,0 +1,24 @@
+body {
+    background-color: #DCDCDC;
+}
+p {
+    text-align: center;
+    font-family: "Arial Narrow";
+    font-size: 20px;
+}
+h1 {
+    text-align: center;
+    color: red;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+.main {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2em;
+}

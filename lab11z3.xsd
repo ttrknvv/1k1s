@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+<xs:element name="territory">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="houses">
+                <xs:complexType>
+                    <xs:sequence>
+
+                        <xs:element name="house">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="street" type="xs:string"/>
+                                    <xs:element name="owner" type="xs:string"/>
+                                </xs:sequence>
+                                    <xs:attribute name="square" type="xs:string" use="required"/>
+                                    <xs:attribute name="price" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                    
+
+                        <xs:element name="house">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="street" type="xs:string"/>
+                                    <xs:element name="owner" type="xs:string"/>
+                                </xs:sequence>
+                                    <xs:attribute name="square" type="xs:string" use="required"/>
+                                    <xs:attribute name="price" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                   
+
+                        <xs:element name="house">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="street" type="xs:string"/>
+                                    <xs:element name="owner" type="xs:string"/>
+                                </xs:sequence>
+                                    <xs:attribute name="square" type="xs:string" use="required"/>
+                                    <xs:attribute name="price" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+            
+                        <xs:element name="house">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="street" type="xs:string"/>
+                                    <xs:element name="owner" type="xs:string"/>
+                                </xs:sequence>
+                                    <xs:attribute name="square" type="xs:string" use="required"/>
+                                    <xs:attribute name="price" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+
+                    </xs:sequence>
+                        <xs:attribute name="count" type="xs:string" use="required"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence> 
+    </xs:complexType>
+</xs:element>
+</xs:schema>
+

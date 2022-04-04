@@ -1,0 +1,46 @@
+﻿ul {
+    margin-top: 200px;
+}
+li {
+    list-style-type: none;
+    font-size: 30px;
+    display: inline;
+    width: 100px;
+    height: 35px;
+    padding-right: 100px;
+    border: 1px #000000 dotted;
+}
+.li_1 {
+    
+    float: left;
+    margin-left: 200px;
+}
+.li_2 {
+    float: left;
+    
+}
+.li_3 {
+    float: left;
+    
+}
+.li_4 {
+    float: left;
+}
+a {
+    color: #4cff00;
+    text-decoration: none;
+    background: url(facultet.png) no-repeat 0 0;
+    width: 300px;
+    height: 30px;
+    display: block;
+    text-indent: 35px;
+}
+a.a_2:hover {
+    background: url(facultet.png) no-repeat 0 -30px;
+}
+a.a_3:hover {
+    background: url(facultet.png) no-repeat 0 -90px;
+}
+a.a_4:hover {
+    background: url(facultet.png) no-repeat 0 -60px;
+}

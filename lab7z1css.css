@@ -1,0 +1,129 @@
+﻿.img_1:hover {
+    transform: scale(0.5);
+}
+.img_2 {
+    transform: rotate(45deg);
+}
+.img_3 {
+    transform: translate(50px, 0px);
+}
+.img_4:hover {
+    transform: skew(-20deg);
+}
+img {
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+}
+.div {
+    width: 150px;
+    height: 170px;
+    background-color: #fffa00;
+    border: 4px solid;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    
+}
+div {
+    display: inline-block;
+}
+.div_2 {
+    perspective: 1300px;
+}
+
+#id_1 {
+    transform: rotateX(35deg);
+}
+#id_2 {
+    transform: rotateY(35deg);
+}
+
+#id_3 {
+    transform: rotateY(-55deg);
+}
+.zad_3 {
+    width: 300px;
+    height: 300px;
+    animation-name: number_3;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-size: 30px;
+    line-height: 50px;
+    padding-top: 10px;
+    padding-left: 40px;
+    position: relative;
+}
+@keyframes number_3 {
+    from {
+        color: #000000;
+        background-color: #ffffff;
+    }
+    to {
+        color:#ffffff;
+        background-color: #000000;
+    }
+}
+@keyframes number_4 {
+    0% {
+        background: url(1.png);
+        width: 500px;
+        height: 500px;
+        background-position: center;
+    }
+    25% {
+        background: url(2.png);
+        width: 500px;
+        height: 500px;
+    }
+    50% {
+        background: url(3.png);
+        width: 500px;
+        height: 500px;
+    }
+    75% {
+        background: url(4.png);
+        width: 500px;
+        height: 500px;
+    }
+    100% {
+        background: url(5.png);
+        width: 500px;
+        height: 500px;
+    }
+}
+.zad_4 {
+    transition-timing-function: linear;
+    animation-name: number_4;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    margin-top: 100px;
+    margin-left: 520px;
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background: url(5.png) no-repeat;
+}
+h1 {
+    margin-bottom: 100px;
+    margin-top: 100px;
+    text-align: center;
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+}
+@keyframes h1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 80%;
+    }
+}
